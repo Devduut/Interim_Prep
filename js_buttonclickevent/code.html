@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Button Click Event Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    #message {
+      margin-top: 20px;
+      font-size: 18px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>JavaScript Button Click Event Example</h1>
+  <button onclick="showMessage()">Click Me!</button>
+  <div id="message"></div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent = "Button was clicked!";
+    }
+  </script>
+
+</body>
+</html>
